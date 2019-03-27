@@ -1,0 +1,8 @@
+(var greet (require "./greet"))
+
+(var not-a-number (as-number 'nope))
+
+(when (number? not-a-number) (console.log "NaN is a number 🤦"))
+
+(greet.say-hello "Randy")
+(greet.say-goodbye "Randy")

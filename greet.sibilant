@@ -1,0 +1,4 @@
+(def say-hello (name) (console.log 'hello name))
+(def say-goodbye (name) (console.log 'good 'bye name))
+
+(assign module.exports {say-hello say-hello say-goodbye say-goodbye})
